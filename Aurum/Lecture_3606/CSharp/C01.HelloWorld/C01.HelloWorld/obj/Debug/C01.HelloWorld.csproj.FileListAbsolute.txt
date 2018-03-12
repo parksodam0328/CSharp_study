@@ -5,3 +5,10 @@ D:\Aurum\Lecture\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.c
 D:\Aurum\Lecture\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.csproj.CoreCompileInputs.cache
 D:\Aurum\Lecture\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.exe
 D:\Aurum\Lecture\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.csproj.CoreCompileInputs.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\bin\Debug\C01.HelloWorld.exe.config
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\bin\Debug\C01.HelloWorld.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\bin\Debug\C01.HelloWorld.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\C01.HelloWorld\obj\Debug\C01.HelloWorld.csprojResolveAssemblyReference.cache
