@@ -2,7 +2,6 @@ D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\bin\Debug
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\bin\Debug\BaseContainer.exe
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\bin\Debug\BaseContainer.pdb
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.csprojResolveAssemblyReference.cache
-D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.Form1.resources
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.Properties.Resources.resources
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.csproj.GenerateResource.cache
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.csproj.CoreCompileInputs.cache

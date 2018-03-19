@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.bClear = new System.Windows.Forms.Button();
             this.bInput = new System.Windows.Forms.Button();
             this.statusLable = new System.Windows.Forms.Label();
             this.tNumber1 = new System.Windows.Forms.TextBox();
             this.tNumber2 = new System.Windows.Forms.TextBox();
             this.tNumber3 = new System.Windows.Forms.TextBox();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.SuspendLayout();
             // 
             // bClear
@@ -112,5 +114,6 @@
         private System.Windows.Forms.TextBox tNumber1;
         private System.Windows.Forms.TextBox tNumber2;
         private System.Windows.Forms.TextBox tNumber3;
+        private System.IO.Ports.SerialPort serialPort1;
     }
 }
