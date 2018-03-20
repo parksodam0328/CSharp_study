@@ -11,11 +11,11 @@ namespace Chapter01_02
         class CMyInt
         {
             public int theValue;
-            /*public override string ToString()
+            public override string ToString()
             {
                 Console.WriteLine("-");
                 return (theValue.ToString());
-            }*/
+            }
         }
             static void Main(string[] args)
             {
@@ -54,6 +54,7 @@ namespace Chapter01_02
             Console.WriteLine("f : {0}", f);
 
 
+            /*
             Console.Write("Input Name : ");
             string tmpName = Console.ReadLine();
             Console.WriteLine("Your Name : {0}", tmpName);
@@ -76,6 +77,67 @@ namespace Chapter01_02
             else
             {
                 Console.WriteLine("\nChar : {0} Success", tmpKey.KeyChar);
+            }
+            */
+
+            int tmpSW = 1;
+            switch (tmpSW)
+            {
+                case 0:
+                    Console.WriteLine("SW : 0");
+                    break;
+                case 1:
+                    Console.WriteLine("SW : 1");
+                    break;
+                default:
+                    Console.WriteLine("None");
+                    break;
+            }
+
+            string strSW = "apple";
+            switch (strSW)
+            {
+                case "apple":
+                    Console.WriteLine("apple, apple");
+                    break;
+                case "banana":
+                    Console.WriteLine("banana, banana");
+                    break;
+                default:
+                    Console.WriteLine("Fruits");
+                    break;
+            }
+
+            int i;
+            int[] arr = new int[] { 1, 2, 3, 4, 5 };
+            for (i = 0; i < arr.Length; i++)
+            {
+                Console.Write("{0} ", arr[i]);
+            }
+            Console.WriteLine();
+            foreach( int iter in arr) // for문과 같은 효과
+            {
+                Console.Write("{0} ", iter);
+            }
+            Console.WriteLine();
+
+            int bCheck = 1;
+            for (i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < 6)
+                {
+                    continue;
+                }
+                bCheck = 0;
+                break;
+            }
+            if (bCheck == 1)
+            {
+                Console.Write("All Items are below 6");
+            }
+            else
+            {
+                Console.Write("One or more Item are above 5");
             }
 
             Console.ReadKey();

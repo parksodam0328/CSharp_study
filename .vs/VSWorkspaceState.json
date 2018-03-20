@@ -5,8 +5,9 @@
     "\\Aurum\\Lecture_3606",
     "\\Aurum\\Lecture_3606\\CSharp",
     "\\Aurum\\Lecture_3606\\CSharp\\C01.HelloWorld",
+    "\\Aurum\\Lecture_3606\\CSharp\\C01.HelloWorld\\BaseContainer",
     "\\Aurum\\Lecture_3606\\CSharp\\C01.HelloWorld\\C01.HelloWorld"
   ],
-  "SelectedNode": "\\Aurum\\Lecture_3606\\CSharp\\C01.HelloWorld\\C01.HelloWorld.sln",
+  "SelectedNode": "\\Aurum\\Lecture_3606\\CSharp\\C01.HelloWorld\\BaseContainer\\Form1.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
