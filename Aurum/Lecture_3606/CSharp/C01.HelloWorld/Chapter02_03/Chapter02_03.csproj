@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1FD94DA-1D9B-42B9-BF69-2AB814DB70E7}</ProjectGuid>
+    <ProjectGuid>{A1B78578-E649-4156-979C-E76693F69787}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter02_02</RootNamespace>
-    <AssemblyName>Chapter02_02</AssemblyName>
+    <RootNamespace>Chapter02_03</RootNamespace>
+    <AssemblyName>Chapter02_03</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLGPhone.cs" />
-    <Compile Include="CSamsungPhone.cs" />
-    <Compile Include="CSmartPhone.cs" />
+    <Compile Include="CPartialClass.cs" />
+    <Compile Include="CVector2i.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

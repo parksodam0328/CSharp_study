@@ -1,0 +1,10 @@
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\bin\Debug\WinForm02_03.exe.config
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\bin\Debug\WinForm02_03.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\bin\Debug\WinForm02_03.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.csprojResolveAssemblyReference.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.Form1.resources
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.Properties.Resources.resources
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.csproj.GenerateResource.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.csproj.CoreCompileInputs.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\WinForm02_03\obj\Debug\WinForm02_03.pdb
