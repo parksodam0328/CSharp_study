@@ -15,7 +15,7 @@ namespace Chapter02_02
             theMarket = "Google";
             theID = "Noname";
         }
-        public virtual string GetMarket()
+        public virtual string GetMarket() //하위클래스에서 오버라이딩 가능하게 하기 위해 virtual 키워드 선언
         {
             return (theMarket);
         }

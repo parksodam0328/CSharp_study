@@ -8,3 +8,4 @@ D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.exe
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.pdb
 D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.BaseGame.resources
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\BaseContainer\obj\Debug\BaseContainer.Form1.resources

@@ -8,23 +8,26 @@ namespace Chapter02_01
 {
     class CMyClass
     {
+		//멤버변수 선언
         public int theStudentCount;
         public String theName;
         public int theGrade;
 
-        public CMyClass()
+		//생성자
+        public CMyClass() //1
         {
             theStudentCount = 20;
             theName = "NoName";
             theGrade = 0;
         }
-        public CMyClass(int aGrade)
+		//생성자 오버로딩
+        public CMyClass(int aGrade) //2
         {
             theStudentCount = 20;
             theName = "NoName";
             theGrade = aGrade;
         } 
-        public CMyClass(int aGrade, string aName) : this()
+        public CMyClass(int aGrade, string aName) : this() //1번 생성자 호출
         {
             theName = aName;
             theGrade = aGrade;

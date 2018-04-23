@@ -74,6 +74,7 @@ namespace Chapter08_01
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+			//99초부터 1초씩 감소
             String strTime = String.Format("Time:{0:D3}", 99-(theTick-theGameTick)/20);
 
             e.Graphics.DrawRectangle(thePen, 0, 0, 99-(theTick-theGameTick)/20, 10);
@@ -82,7 +83,7 @@ namespace Chapter08_01
             int i;
             for (i = 0; i < 16; i++)
             {
-                if(theViewIndices[i]==theEmptyIndex)
+                if(theViewIndices[i]==theEmptyIndex) 
                 {
                     continue;
                 }
@@ -101,7 +102,7 @@ namespace Chapter08_01
             theTick++;
             Invalidate();
         }
-        int[][] theWays =
+        int[][] theWays = //알파벳 이동할 수 있는 방법
         {
             new int[] {1,4},
             new int[] {0,2,5},
@@ -121,7 +122,7 @@ namespace Chapter08_01
             new int[] {11,14}
         };
 
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        private void Form1_MouseDown(object sender, MouseEventArgs e) //마우스클릭시 알파벳 이동
         {
             int i;
             int tmpX = e.X;

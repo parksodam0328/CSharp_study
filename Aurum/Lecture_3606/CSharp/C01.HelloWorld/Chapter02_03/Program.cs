@@ -19,15 +19,17 @@ namespace Chapter02_03
             CVector2i tmpV2 = new CVector2i();
             tmpV2.X = 3;
             Console.WriteLine(tmpV2.X);
-            tmpV2.Y = 7;
-            Console.WriteLine(tmpV2.theY);
 
- //           tmpV2.Info = "AAA";
+            tmpV2.Y = 7;
+			Console.WriteLine(tmpV2.Y);
+			Console.WriteLine(tmpV2.theY);
+
+ //           tmpV2.Info = "AAA"; 읽기 전용이기 때문
             Console.WriteLine(tmpV2.Info);
             CVector2i tmpV3 = new CVector2i() { X = 8, Y = 9 };
             Console.WriteLine(tmpV3.Info);
 
-            var tmpStudent = new { Number = 1, Name = "Mirim" };
+            var tmpStudent = new { Number = 1, Name = "Mirim" }; //객체생성 익명 객체 (클래스 없이)
             Console.WriteLine(tmpStudent.Number);
             Console.WriteLine(tmpStudent.Name);
         }

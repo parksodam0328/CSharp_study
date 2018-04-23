@@ -33,7 +33,7 @@ namespace Chapter02_03
             get;
             set;
         }
-        public String Info
+        public String Info //읽기 전용
         {
             get
             {

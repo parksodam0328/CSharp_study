@@ -24,7 +24,7 @@ namespace BaseContainer
             {
                 tempNum[i] = i + 1;
             }
-            for (i = 0; i < 100; i++)
+            for (i = 0; i < 100; i++) //숫자 섞이도록
             {
                 int iNum1 = rand.Next(0, 9);
                 int iNum2 = rand.Next(0, 9);

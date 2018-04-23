@@ -11,13 +11,13 @@ namespace Chapter01_02
         class CMyInt
         {
             public int theValue;
-            public override string ToString()
-            {
-                Console.WriteLine("-");
-                return (theValue.ToString());
-            }
-        }
-            static void Main(string[] args)
+			//public override string ToString()
+			//{
+			//    Console.WriteLine("-");
+			//    return (theValue.ToString());
+			//}
+		}
+		static void Main(string[] args)
             {
             int a = 12345;
             int b = a;
@@ -41,15 +41,15 @@ namespace Chapter01_02
             Console.WriteLine("c : {0} ", c);
             Console.WriteLine("d : {0}", d);
 
-            CMyInt e = new CMyInt();
+            CMyInt e = new CMyInt(); //객체 참조
             e.theValue = 12345;
             CMyInt f = e;
             Console.WriteLine("Before");
             Console.WriteLine("e : {0} ", e);
             Console.WriteLine("f : {0}", f);
 
-            e.theValue = 98765;
-            Console.WriteLine("Before");
+            e.theValue = 98765; // e와 f는 같은 주소를 참조하기 때문에 e의 값이 변경되면 f값도 같이 변경
+            Console.WriteLine("After");
             Console.WriteLine("e : {0} ", e);
             Console.WriteLine("f : {0}", f);
 
@@ -59,13 +59,13 @@ namespace Chapter01_02
             string tmpName = Console.ReadLine();
             Console.WriteLine("Your Name : {0}", tmpName);
 
-            Console.Write("\nInput Char : ");
-            ConsoleKeyInfo tmpKey = Console.ReadKey();
+            Console.Write("\nInput Char : "); 
+            ConsoleKeyInfo tmpKey = Console.ReadKey();// 입력
 
             int i;
             for(i = 0; i < tmpName.Length; i++)
             {
-                if (tmpName[i].Equals(tmpKey.KeyChar) == true)
+                if (tmpName[i].Equals(tmpKey.KeyChar) == true) //KeyChar 누른 키에 해당하는 문자를 가져온다.
                 {
                     break;
                 }
@@ -81,7 +81,7 @@ namespace Chapter01_02
             */
 
             int tmpSW = 1;
-            switch (tmpSW)
+            switch (tmpSW) 
             {
                 case 0:
                     Console.WriteLine("SW : 0");
@@ -95,7 +95,7 @@ namespace Chapter01_02
             }
 
             string strSW = "apple";
-            switch (strSW)
+            switch (strSW) // 문자열이 올 수 있음
             {
                 case "apple":
                     Console.WriteLine("apple, apple");
@@ -126,10 +126,12 @@ namespace Chapter01_02
             {
                 if (arr[i] < 6)
                 {
-                    continue;
+					Console.Write(bCheck);
+					break;
                 }
                 bCheck = 0;
-                break;
+				Console.Write(bCheck);
+				break;
             }
             if (bCheck == 1)
             {

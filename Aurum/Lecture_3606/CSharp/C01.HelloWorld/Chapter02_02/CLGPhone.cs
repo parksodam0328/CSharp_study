@@ -14,8 +14,8 @@ namespace Chapter02_02
         }
         public override string GetMarket()
         {
-            string parentMarket = base.GetMarket();
-            return (parentMarket + ", U+ Market");
+            string parentMarket = base.GetMarket(); //상위클래스의 GetMarket 함수를 호출하기 위해 base 키워드 사용
+			return (parentMarket + ", U+ Market");
         }
         public int GetButtonCount()
         {

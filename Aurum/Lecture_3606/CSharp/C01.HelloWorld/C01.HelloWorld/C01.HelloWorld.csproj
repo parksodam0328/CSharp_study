@@ -44,8 +44,8 @@
   <ItemGroup>
     <None Include="Program2.cs" />
     <None Include="Program1.cs" />
-    <None Include="Program3.cs" />
-    <None Include="CMyClass.cs" />
+    <Compile Include="CMyClass.cs" />
+    <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,10 +10,10 @@ namespace c01.helloworld
     {
         static void Main(string[] args)
         {
-            int tmpx;
-            int tmpy;
-            tmpx = 7;
-            tmpy = 8;
+            int tmpX;
+            int tmpY;
+			tmpX = 7;
+			tmpY = 8;
 
             Console.WriteLine("%d + %d = %d", tmpX, tmpY, tmpX + tmpY);
             Console.WriteLine("{0} + {1} = {2}", tmpX, tmpY, tmpX + tmpY);
@@ -21,7 +21,7 @@ namespace c01.helloworld
             Console.WriteLine("{0} + {1} = {2} ({0}, {1})", tmpX, tmpY, tmpX + tmpY);
             Console.WriteLine("{0} + {1} = {2}", tmpX.ToString(), tmpY.ToString(), tmpX.ToString() + tmpY.ToString());
 
-            console.WriteLine("{0} + {1} = {2}", tmpX.ToString(), tmpY.ToString(), (tmpX + tmpY).ToString());
+			Console.WriteLine("{0} + {1} = {2}", tmpX.ToString(), tmpY.ToString(), (tmpX + tmpY).ToString());
 
             string tmpName = "class";
             String tmpLang = "c#";

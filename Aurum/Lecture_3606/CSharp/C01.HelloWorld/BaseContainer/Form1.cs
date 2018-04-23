@@ -10,48 +10,48 @@ using System.Windows.Forms;
 
 namespace BaseContainer
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+	public partial class Form1 : Form
+	{
+		public Form1()
+		{
+			InitializeComponent();
+		}
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
+		private void 파일NToolStripMenuItem_Click(object sender, EventArgs e)
+		{
 
-        }
+		}
 
-        private void toolStripComboBox1_Click(object sender, EventArgs e)
-        {
+		private void 창ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
 
-        }
+		}
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+		private void 새창NToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			BaseGame theGame = new BaseGame();
+			theGame.MdiParent = this;
+			theGame.Show();
+		}
 
-        }
+		private void 계단식배열ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			LayoutMdi(MdiLayout.Cascade);
+		}
 
-        private void 새창NToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            BaseGame theGame = new BaseGame();
-            theGame.MdiParent = this;
-            theGame.Show();
-        }
+		private void 가로배열ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			LayoutMdi(MdiLayout.TileHorizontal);
+		}
 
-        private void 계단식배열ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.Cascade);
-        }
+		private void 세로배열ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			LayoutMdi(MdiLayout.TileVertical);
+		}
 
-        private void 가로배열ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileHorizontal);
-        }
+		private void Form1_Load(object sender, EventArgs e)
+		{
 
-        private void 세로배열ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileVertical);
-        }
-    }
+		}
+	}
 }

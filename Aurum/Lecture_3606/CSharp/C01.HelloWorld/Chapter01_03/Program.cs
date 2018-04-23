@@ -10,13 +10,14 @@ namespace Chapter01_03
     {
         static void Main(string[] args)
         {
-            object a = 100;
-            object c = 1234567890L;
-            object w = "abcde";
+            object a = 100; //boxing
+            object c = 1234567890L; //boxing
+            object w = "abcde"; //boxing
             Console.WriteLine(a);
             Console.WriteLine(c);
             Console.WriteLine(w);
-
+			
+			//각 object가 가리키는 타입 출력
             Console.WriteLine(a.GetType());
             Console.WriteLine(c.GetType());
             Console.WriteLine(w.GetType());
@@ -34,25 +35,29 @@ namespace Chapter01_03
             Console.WriteLine(f);
             Console.WriteLine(g);
 
+
+			//숫자형 문자형으로 변환
             Console.WriteLine(f.ToString("D8"));
-            Console.WriteLine(f.ToString("F2"));
+            Console.WriteLine(g.ToString("F2"));
 
             string h = "123456";
             string m = "1.23456";
+
+			//문자형 숫자형으로 변환
             int o = int.Parse(h);
             float p = float.Parse(m);
             Console.WriteLine(o);
             Console.WriteLine(p);
 
-            const int q = 567; // 변경 불가
+            const int q = 567; // const 키워드 사용으로 변경 불가
             // q=123; error
 
-            EFruit tmpEF = EFruit.EF_Banana;
-            if(tmpEF == EFruit.EF_Apple)
+            EFruit tmpEF = EFruit.EF_Banana; //tmpEF = EF_Banana 
+			if (tmpEF == EFruit.EF_Apple)
             {
                 Console.WriteLine("Apple");
             }
-            switch (tmpEF)
+            switch (tmpEF) //열거형도 들어갈 수 있음
             {
                 case EFruit.EF_Apple:
                     Console.WriteLine("EF_Apple");
@@ -64,8 +69,8 @@ namespace Chapter01_03
                     Console.WriteLine("EF_Lemon");
                     break;
             }
-
-            int[] tmpPoints = new int[(int)EFruit.EF_Count];
+			
+            int[] tmpPoints = new int[(int)EFruit.EF_Count]; //3
             int i;
             for (i = 0; i < (int)EFruit.EF_Count; i++)
             {
@@ -78,8 +83,8 @@ namespace Chapter01_03
                 Console.WriteLine((EFruit)i);
             }
 
-            int? r = null;
-            Console.WriteLine(r.HasValue);
+            int? r = null; //? : 변수에 값이 없을 수도 있음을 나타내는 키워드
+            Console.WriteLine(r.HasValue); //HasValue : 값이 있으면 true, 없으면 false 반환
             if(r.HasValue == true)
             {
                 Console.WriteLine(r.Value);
@@ -116,7 +121,7 @@ namespace Chapter01_03
             Console.WriteLine(_j);
             Console.WriteLine(_k);
             Console.WriteLine(_l);
-            Console.WriteLine(_m.ToString("X8"));
+            Console.WriteLine(_m.ToString("X8")); //16진수로 변환
             Console.WriteLine(_n.ToString("X8"));
 
             Console.ReadKey();
