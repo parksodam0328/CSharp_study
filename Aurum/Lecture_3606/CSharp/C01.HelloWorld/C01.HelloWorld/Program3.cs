@@ -21,7 +21,7 @@ namespace C01.HelloWorld
             //Console.WriteLine("int : {0} ", 1234567 * 1234567); // 범위 벗어남!
             Console.WriteLine("long : {0} ", 1234567L * 1234567L);
 
-            float c = 1.23456789f;
+            float c = 1.234561f;
             double d = 1.234567890123;
 
             Console.WriteLine("float : {0} ", c);

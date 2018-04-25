@@ -40,7 +40,7 @@ namespace Chapter08_01
             {
                 theViewIndices[i] = i;
             }
-            for (i = 0; i < 1000; i++)
+            for (i = 0; i < 1000; i++) // 이미지 섞기
             {
                 int tmpSwap;
                 int tmpRand1 = tmpR.Next(16);
@@ -49,7 +49,7 @@ namespace Chapter08_01
                 theViewIndices[tmpRand1]=theViewIndices[tmpRand2];
                 theViewIndices[tmpRand2] = tmpSwap;
             }
-            theEmptyIndex = 15;
+            theEmptyIndex = 15; // 화면상에 이미지 15개까지 나옴
             theTouchIndex = -1;
 
             bSuccess = 0;
@@ -62,8 +62,8 @@ namespace Chapter08_01
 
         List<Image> imgList;
 
-        int scrX = 50;
-        int scrY = 50;
+        int scrX = 50; // 초기 x좌표
+        int scrY = 50; // 초기 y좌표
         int theTick;
         int theGameTick;
 
@@ -77,13 +77,14 @@ namespace Chapter08_01
 			//99초부터 1초씩 감소
             String strTime = String.Format("Time:{0:D3}", 99-(theTick-theGameTick)/20);
 
+			// 시간바
             e.Graphics.DrawRectangle(thePen, 0, 0, 99-(theTick-theGameTick)/20, 10);
             e.Graphics.DrawString(strTime, theFont, theBrush, 0, 10);
 
             int i;
             for (i = 0; i < 16; i++)
             {
-                if(theViewIndices[i]==theEmptyIndex) 
+                if(theViewIndices[i]==theEmptyIndex) // 이미지 한 개 빼기
                 {
                     continue;
                 }

@@ -89,5 +89,10 @@ namespace BaseContainer
             }
 
         }
-    }
+
+		private void BaseGame_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
