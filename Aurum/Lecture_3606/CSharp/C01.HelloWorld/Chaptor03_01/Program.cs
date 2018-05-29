@@ -30,7 +30,7 @@ namespace Chaptor03_01
 			int[] num2s = { 3, 1, 4, 1, 5, 9, 2 };
 			Console.WriteLine();
 			Console.Write("num2s : ");
-			foreach(int iter in num2s)
+			for (i = 0; i < num2s.Length; i++)
 			{
 				Console.Write("{0}, ", num2s[i]);
 			}
@@ -40,7 +40,7 @@ namespace Chaptor03_01
 			Console.Write("tmpStrs : ");
 			foreach (string iter in tmpStrs)
 			{
-				Console.Write("{0}, ", tmpStrs[i]);
+				Console.Write("{0}, ", iter);
 			}
 
 			String[,] tmpStrLists = { { "Apple", "Banana", "Lemon" }, { "Pizza", "Pasta", "Risoto" } };
