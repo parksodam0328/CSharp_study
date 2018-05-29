@@ -143,7 +143,7 @@ namespace Chapter08_01
             }
             if (0 <= theTouchIndex && theTouchIndex < 16)
             {
-                for (i = 0; i < theWays[theTouchIndex].Length; i++)
+                for (i = 0; i < theWays[theTouchIndex].Length; i++) //이미지 섞기
                 {
                     int tmpWayPos = theWays[theTouchIndex][i];
                     if (theViewIndices[tmpWayPos] == theEmptyIndex)
