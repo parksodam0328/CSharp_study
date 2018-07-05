@@ -99,7 +99,58 @@ namespace Chapter03_02
 			Console.WriteLine(itemList[0][1]);
 			Console.WriteLine(itemList[1][0]);
 			Console.WriteLine(itemList[2][2]);
+
+			SortedList<string, int> tmpSL = new SortedList<string, int>();
+			tmpSL.Add("Hong", 89);
+			tmpSL.Add("Lee", 85);
+			tmpSL.Add("Choi", 75);
+			tmpSL.Add("Kim", 92);
+
+			foreach(KeyValuePair<string, int> iter in tmpSL)
+			{
+				Console.WriteLine("{0} : {1}", iter.Key, iter.Value);
+			}
+			foreach (string key in tmpSL.Keys)
+			{
+				Console.WriteLine("{0} : {1}", key, tmpSL[key]);
+			}
+
+			tmpSL["Jung"] = 89; //add
+			tmpSL["Hong"] = 95; //modify
+			foreach (string key in tmpSL.Keys)
+			{
+				Console.WriteLine("{0} : {1}", key, tmpSL[key]);
+			}
+			tmpSL["Choi"] = 92;
+			Console.WriteLine("=========Score List=======");
+
+			SortedList<int, List<string>> tmpScores = new SortedList<int, List<string>>();
+			foreach(KeyValuePair<string, int> iter in tmpSL)
+			{
+				string tmpName = iter.Key;
+				int tmpScore = iter.Value;
+
+				if (tmpScores.ContainsKey(tmpScore) == true)
+				{
+					tmpScores[tmpScore].Add(tmpName);
+				}
+				else
+				{
+					List<string> tmpArrs = new List<string>();
+					tmpArrs.Add(tmpName);
+					tmpScores.Add(tmpScore, tmpArrs);
+				}
+			}
+			foreach(int iterScore in tmpScores.Keys.Reverse())
+			{
+				Console.Write("{0} : ", iterScore);
+				foreach(string iterName in tmpScores[iterScore])
+				{
+					Console.Write("{0}, ", iterName);
+				}
+				Console.WriteLine();
+			}
 			Console.ReadKey();
 		}
 	}
-}
+} 

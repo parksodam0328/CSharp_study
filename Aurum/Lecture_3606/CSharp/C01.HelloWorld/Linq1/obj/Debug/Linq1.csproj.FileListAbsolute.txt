@@ -1,0 +1,7 @@
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\bin\Debug\Linq1.exe.config
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\bin\Debug\Linq1.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\bin\Debug\Linq1.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\obj\Debug\Linq1.csproj.CoreCompileInputs.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\obj\Debug\Linq1.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\obj\Debug\Linq1.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Linq1\obj\Debug\Linq1.csprojResolveAssemblyReference.cache
