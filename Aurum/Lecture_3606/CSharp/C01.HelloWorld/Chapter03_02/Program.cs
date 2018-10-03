@@ -121,7 +121,7 @@ namespace Chapter03_02
 			{
 				Console.WriteLine("{0} : {1}", key, tmpSL[key]);
 			}
-			tmpSL["Choi"] = 92;
+			tmpSL["Choi"] = 92; //modify
 			Console.WriteLine("=========Score List=======");
 
 			SortedList<int, List<string>> tmpScores = new SortedList<int, List<string>>();

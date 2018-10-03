@@ -32,6 +32,8 @@ namespace Chapter02_03
             var tmpStudent = new { Number = 1, Name = "Mirim" }; //객체생성 익명 객체 (클래스 없이)
             Console.WriteLine(tmpStudent.Number);
             Console.WriteLine(tmpStudent.Name);
+
+			Console.ReadKey();
         }
     }
     partial class CPartialClass

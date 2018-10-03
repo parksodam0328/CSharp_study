@@ -127,6 +127,7 @@ namespace Chapter01_02
                 if (arr[i] < 6)
                 {
 					Console.Write(bCheck);
+					//continue;
 					break;
                 }
                 bCheck = 0;

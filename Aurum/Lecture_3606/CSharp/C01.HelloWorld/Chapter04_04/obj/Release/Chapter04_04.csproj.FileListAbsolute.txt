@@ -1,0 +1,7 @@
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\bin\Release\Chapter04_04.exe.config
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\bin\Release\Chapter04_04.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\bin\Release\Chapter04_04.pdb
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\obj\Release\Chapter04_04.csprojResolveAssemblyReference.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\obj\Release\Chapter04_04.csproj.CoreCompileInputs.cache
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\obj\Release\Chapter04_04.exe
+D:\CSharp_study\Aurum\Lecture_3606\CSharp\C01.HelloWorld\Chapter04_04\obj\Release\Chapter04_04.pdb

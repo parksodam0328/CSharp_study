@@ -47,6 +47,7 @@ namespace Chaptor03_01
 			Console.WriteLine();
 			Console.Write(tmpStrLists[0,1]);
 			Console.Write(tmpStrLists[1, 2]);
+			Console.WriteLine();
 
 			int j;
 			for (i = 0; i < tmpStrLists.GetLength(0); i++)
